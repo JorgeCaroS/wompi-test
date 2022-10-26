@@ -1,0 +1,45 @@
+.right-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 20px;
+  }
+  
+.section-header-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 15vh;
+    border-bottom: solid 1px rgb(166, 109, 173) ;
+    margin-bottom: 20px;
+    color: rgb(146, 40, 160);
+}
+
+.market-icon-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(146, 40, 160);
+    margin-left: 85%;    
+    padding: 5px; 
+}
+
+.market-icon-right p{
+    color:white  
+}
+
+
+.right-section label{
+    color: gray;
+}
+
+@media screen and (max-width: 800px) {
+  
+    .right-section{
+      flex:100%
+      }
+  }

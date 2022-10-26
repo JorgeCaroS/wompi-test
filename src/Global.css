@@ -1,0 +1,5 @@
+@import "./App.css";
+@import "./components/store/store.css";
+@import "./components/right-section/RightSection.css";
+@import "./components/product/Product.css";
+@import "./components/cart/Cart.css";
