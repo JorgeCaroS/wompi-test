@@ -18,9 +18,6 @@ function RightSection() {
     dispatch(showCart(true));
   };
 
-  const closeCart = () => {
-    dispatch(showCart(false));
-  };
   return (
     <div className="right-section">
       <div className="section-header-right">

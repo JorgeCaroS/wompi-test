@@ -13,7 +13,6 @@ function Product() {
   const dispatch = useDispatch();
   const product = useSelector((state) => state.productSelected.productSelected);
   const products = useSelector((state) => state.allProducts.allProducts);
-  const cart = useSelector((state) => state.cartProducts.cartProducts);
 
   const handleQuantity = (e) => {
     const counter = Number(e.currentTarget.id);
